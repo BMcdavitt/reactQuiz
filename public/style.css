@@ -1,0 +1,145 @@
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.gameContent {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.startTitle {
+    font-family: Karla;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #293264;
+}
+
+button {
+
+    width: 193px;
+    height: 52px;
+    left: 179px;
+    top: 314px;
+
+    border: none;
+
+    background: #4D5B9E;
+    border-radius: 15px;
+
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #F5F7FB;
+}
+
+.blob1 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+
+.blob2 {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+
+}
+
+.question {
+    height: 30px;
+
+    font-family: 'Karla';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 19px;
+    
+    color: #2b356d;
+
+    margin: 20px;
+}
+
+.choices {
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px;
+
+}
+
+.choice {
+    border: 0.79px solid #4D5B9E;
+    border-radius: 8px;
+    padding: 2px 5px 2px 5px;
+    margin-right: 13px;
+}
+
+.choiceSelected {
+    border: 0.79px solid #4D5B9E;
+    border-radius: 8px;
+    padding: 2px 5px 2px 5px;
+    margin-right: 13px;
+    background-color:#D6DBF5;
+    
+}
+
+hr {
+    border: 0.79px solid #DBDEF0;
+    width: 90%;
+
+}
+
+.choiceCorrect {
+    border: 0.79px solid #4D5B9E;
+    border-radius: 8px;
+    padding: 2px 5px 2px 5px;
+    margin-right: 13px;
+    background-color: #94D7A2;
+    ;
+    
+}
+
+.choiceIncorrect {
+    border: 0.79px solid #4D5B9E;
+    border-radius: 8px;
+    padding: 2px 5px 2px 5px;
+    margin-right: 13px;
+    background-color: #F8BCBC;
+    ;
+    
+}
+
+.results {
+
+
+    font-family: 'Inter';
+    font-weight: 700;
+    color: #293264;
+}
+
+.gameState {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
