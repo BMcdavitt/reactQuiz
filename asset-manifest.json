@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/BMcdavitt/reactQuiz/static/js/main.34348d71.js",
-    "index.html": "/BMcdavitt/reactQuiz/index.html",
-    "main.34348d71.js.map": "/BMcdavitt/reactQuiz/static/js/main.34348d71.js.map"
+    "main.js": "/reactQuiz/static/js/main.00dccc88.js",
+    "index.html": "/reactQuiz/index.html",
+    "main.00dccc88.js.map": "/reactQuiz/static/js/main.00dccc88.js.map"
   },
   "entrypoints": [
-    "static/js/main.34348d71.js"
+    "static/js/main.00dccc88.js"
   ]
 }
